@@ -1,12 +1,12 @@
 {
-  "name": "TRAMA — Geografia, ensino e planejamento",
+  "name": "TRAMA — Educação e Geografia",
   "short_name": "TRAMA",
-  "description": "Planejamento pedagógico, biblioteca e materiais de Geografia.",
+  "description": "Planejamento, calendário escolar, gestão de turmas e atividades de Geografia.",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#eaf2ec",
-  "theme_color": "#163F32",
+  "background_color": "#f2f4f2",
+  "theme_color": "#163f32",
   "lang": "pt-BR",
   "icons": [
     {

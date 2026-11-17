@@ -1,21 +1,14 @@
-# Atlas — Geografia | Protótipo V1
+# TRAMA — Versão 2 (demonstrativa)
 
-Protótipo estático do aplicativo Atlas — Geografia, preparado para GitHub Pages.
+Identidade verde e símbolo de marca aprovados, aplicados como ícone do aplicativo.
 
-## Publicar
+## Como testar
+Abra `index.html` no navegador após extrair o ZIP. Recursos de edição e visualização locais permanecem demonstrativos.
 
-1. Crie um repositório público chamado `atlas-geografia` no GitHub.
-2. Extraia este ZIP e envie os arquivos `index.html` e `.nojekyll` para a raiz do repositório (branch `main`).
-3. Acesse **Settings > Pages > Build and deployment > Source: Deploy from a branch**.
-4. Selecione **main** e **/(root)**. Salve.
-5. Abra `https://SEU-USUARIO.github.io/atlas-geografia/` após a publicação.
+## Como publicar via GitHub Pages
+Envie `index.html`, `manifest.webmanifest` e a pasta `icons/` para a raiz do repositório. Em **Settings → Pages**, selecione **Deploy from a branch → main → /(root)**.
 
-## Limitações desta versão
+## Limitações
+Esta versão mantém dados apenas no localStorage do navegador, inclusive publicações simuladas. O portal do estudante é uma prévia local, não um sistema público com dados compartilhados. A autenticação, sincronização e uploads reais exigem backend e controle de acesso.
 
-- Demonstração local: atividades e turmas são armazenadas apenas no `localStorage` do navegador.
-- Publicações feitas pelo professor não aparecem automaticamente para alunos em outros dispositivos.
-- Não possui autenticação do professor, banco de dados compartilhado nem hospedagem de PDFs enviados.
-- O portal do aluno é ilustrativo e ainda não é apropriado para distribuição real de atividades por turma.
-- Nunca cadastre informações pessoais ou sensíveis neste protótipo público.
-
-Próxima etapa: autenticação do professor, armazenamento em nuvem e portal público por turma.
+Os exemplos curriculares são ilustrativos, não uma transcrição oficial dos planos de curso.
